@@ -1,9 +1,5 @@
 package Lab3.ex3;
 
-// TODO
-// Add program code so that the threads wait for each other after completing first job
-// No thread should starts second job until all threads have completed first job 
-
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
