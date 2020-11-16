@@ -36,6 +36,10 @@ public class TestStudentSerialization {
 
             assertEquals(s, s2);
 
+            oIn.close();
+            fIn.close();
+
+
         } catch (IOException | ClassNotFoundException e){
             e.printStackTrace();
             System.out.println(">:(");
